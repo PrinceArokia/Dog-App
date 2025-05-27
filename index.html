@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoboLearn - Small Learning Robots</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a modern look */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-100 to-purple-100 min-h-screen flex items-center justify-center p-4">
+    <div class="max-w-4xl w-full bg-white rounded-xl shadow-2xl overflow-hidden md:flex">
+        <div class="md:w-1/2 p-6 flex items-center justify-center bg-blue-600 text-white relative overflow-hidden rounded-l-xl">
+            <div class="absolute inset-0 opacity-20">
+                <svg class="w-full h-full" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#ffffff" d="M49.6,-57.8C65.5,-46.8,80.1,-31.6,83.9,-13.4C87.7,4.8,80.7,26.1,68.9,43.2C57.1,60.3,40.5,73.1,20.8,79.5C1.1,85.9,-21.5,85.8,-40.4,77.5C-59.3,69.2,-74.4,52.7,-80.6,33.5C-86.8,14.3,-84.1,-7.6,-75.6,-26.4C-67.1,-45.2,-52.8,-61,-35.8,-69.1C-18.8,-77.2,1.5,-77.6,18.1,-71.8C34.7,-66,49.6,-57.8Z" transform="translate(100 100)" />
+                </svg>
+            </div>
+            <img src="https://placehold.co/400x400/60A5FA/FFFFFF?text=Learning+Robot" alt="Learning Robot Illustration" class="relative z-10 w-4/5 h-auto rounded-lg shadow-lg">
+        </div>
+
+        <div class="md:w-1/2 p-8 flex flex-col justify-center">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 leading-tight">
+                RoboLearn: <span class="text-blue-600">The Future of Playful Learning</span>
+            </h1>
+            <p class="text-lg text-gray-700 mb-6">
+                Discover RoboLearn, our innovative project focused on building small, interactive robots designed to make learning fun and accessible for everyone. These intelligent companions adapt and grow with you!
+            </p>
+            <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
+                <li>Engaging interactive experiences</li>
+                <li>Personalized learning pathways</li>
+                <li>Develop problem-solving skills</li>
+                <li>Safe and durable design</li>
+            </ul>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105 text-center">
+                    Learn More
+                </a>
+                <a href="#features" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105 text-center">
+                    See Features
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <section id="features" class="absolute top-[100vh] left-0 w-full p-8 bg-gray-50 text-center hidden">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Key Features</h2>
+        <p class="text-gray-700">Details about the robot's capabilities will go here.</p>
+    </section>
+
+    <section id="contact" class="absolute top-[200vh] left-0 w-full p-8 bg-gray-100 text-center hidden">
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">Get in Touch</h2>
+        <p class="text-gray-700">Contact information or a form will be here.</p>
+    </section>
+</body>
+</html>
